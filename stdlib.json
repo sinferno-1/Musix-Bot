@@ -1,0 +1,37 @@
+{
+  "name": "sinferno/musix",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create/prefix/play.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "-play"
+      }
+    },
+    "functions/events/discord/message/create/prefix/stop.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "-stop"
+      }
+    },
+    "functions/events/discord/message/create/prefix/pause.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "-pause"
+      }
+    },
+    "functions/events/discord/message/create/prefix/resume.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "-resume"
+      }
+    },
+    "functions/events/discord/message/create/prefix/stop0.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "-stop"
+      }
+    }
+  }
+}
