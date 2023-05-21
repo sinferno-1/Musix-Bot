@@ -1,0 +1,10 @@
+{
+  "name": "new-project",
+  "author": "sinferno",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "ytdl-core": "^4.11.1",
+    "yt-search": "^2.10.3"
+  }
+}
